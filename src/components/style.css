@@ -1,0 +1,38 @@
+.header .container-fluid {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .container-fluid .navbar-brand {
+  color: white;
+}
+.header .container-fluid #navbarNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header .container-fluid #navbarNav ul li a {
+  color: gray;
+  transition: all 0.5s;
+}
+.header .container-fluid #navbarNav ul li a:hover {
+  color: white;
+}
+.header header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  border-bottom: 1px solid #dee2e6;
+}
+.header header h1 {
+  font-weight: bold;
+}
+.header header p {
+  font-size: 20px;
+  font-weight: 100;
+}/*# sourceMappingURL=style.css.map */

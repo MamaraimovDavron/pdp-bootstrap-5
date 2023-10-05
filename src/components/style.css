@@ -35,4 +35,112 @@
 .header header p {
   font-size: 20px;
   font-weight: 100;
+}
+
+.middle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.middle .left-box {
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.middle .left-box .top-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+.middle .left-box .top-box .box-850 {
+  height: 350px;
+  background-color: #dee2e6;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: #6d747c;
+  font-weight: 100;
+}
+.middle .left-box .top-box .texts {
+  padding: 20px;
+}
+.middle .left-box .top-box .texts h5 {
+  font-size: 14px;
+  color: #6d747c;
+  font-weight: 100;
+}
+.middle .left-box .top-box .texts a {
+  text-decoration: none;
+  color: white;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+.middle .left-box .bottom-box {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 20px;
+  border-bottom: 1px solid;
+}
+.middle .left-box .bottom-box .row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.middle .left-box .bottom-box .row .col {
+  width: 50%;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 0;
+}
+.middle .left-box .bottom-box .row .col .box-700 {
+  width: 100%;
+  height: 200px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dee2e6;
+  font-size: 60px;
+  font-weight: 100;
+}
+.middle .left-box .bottom-box .row .col .text-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.middle .left-box .bottom-box .row .col .text-inside h5 {
+  font-size: 14px;
+  padding-left: 2px;
+  color: #6d747c;
+  font-weight: 100;
+}
+.middle .left-box .bottom-box .row .col .text-inside h2 {
+  font-size: 25px;
+}
+.middle .left-box .bottom-box .row .col .text-inside a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 110px;
+  padding: 6px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: #0d6efd;
+}
+.middle .right-box {
+  border: 1px solid;
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
